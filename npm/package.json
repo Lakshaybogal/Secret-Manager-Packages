@@ -1,0 +1,23 @@
+{
+  "name": "lakshay_bogal_testing",
+  "version": "1.1.2",
+  "description": "Library to use in JS and TS projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lakshay",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.6",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
